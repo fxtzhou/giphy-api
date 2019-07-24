@@ -10,39 +10,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous”>
 
-<!-- Jquery -->
-<script   src=" https://code.jquery.com/jquery-3.4.1.js"
+!-- Jquery --
+<script src= "https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>
+
+    <!-- Ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+   </script>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid ">
+        
         <div class="row bg-light">
-            <div class="col">
+            <h1 class="m-5">Cute Cat Gifs!</h1>
+
+            <div class="col m-3">
             <div id="tags"><h5>Tags</h5>
+                
                 <p>Add gif tags here, and click on them to see the results! You can play or pause a gif by clicking on it.</p>
             </div>
         </div>
         </div>
 
 <div class="row">
-    <div class="col col-lg-9 col-sm-1 bg-primary">
-
+    <div class="col col-lg-8 ">
+            <h4 class="m-3">Gif Results</h4>
         <div id="gifs">
-            <h3>Gif Results</h3>
+            
         </div>
     </div>
 
-    <div class="col col-lg-3 col-sm-1 bg-info">
+    <div class="col col-lg-3 mt-3">
         <form>
-            <div id="add-item">
+            
                 <label for="add-item"><h5>Add a New Gif!</h5></label>
-                <input type="text" class="form-control" id="add-item" aria-describedby="emailHelp" placeholder="">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="text" class="form-control mb-3" id="add-item" aria-describedby="emailHelp" placeholder="" >
+          
+            <button type="submit" id = "submit-item" class="btn btn-primary ">Submit</button>
         </form>
     </div>
+    <div class="col"></div>
 </div>
 </div>
 
