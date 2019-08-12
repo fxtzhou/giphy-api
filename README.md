@@ -1,2 +1,3 @@
 # giphy-api
-giphy api ajax homework
+
+https://fxtzhou.github.io/giphy-api/
